@@ -2,3 +2,10 @@
   font-family: sans-serif;
   text-align: center;
 }
+
+.Pokemon a {
+  display: block;
+}
+.Pokemon h3 {
+  color: blueviolet;
+}
