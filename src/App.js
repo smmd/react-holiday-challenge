@@ -1,10 +1,18 @@
-import React from "react";
+import React, { Component } from 'react';
 import "./styles.css";
 
-export default function App() {
-  return (
-    <div className="App">
-      <h1>Welcome to your second mini challenge!</h1>
-    </div>
-  );
+import PokeCard from "./components/PokeCard";
+
+class App extends Component {
+  render () {
+    return (
+        <div className='App'>
+          <h1>Welcome to Sagrario's challenge solution!</h1>
+          <h2>Here my favorite pokemones</h2>
+          <PokeCard />
+        </div>
+    )
+  }
 }
+
+export default App;
